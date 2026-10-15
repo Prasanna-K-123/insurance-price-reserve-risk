@@ -1,0 +1,222 @@
+{
+  "sources": [
+    {
+      "name": "freMTPL2freq.rda",
+      "url": "https://raw.githubusercontent.com/dutangc/CASdatasets/master/data/freMTPL2freq.rda",
+      "sha256": "82c8598513d9fa78226b6c7d271a9940eca4b8083e9e32320a75d377bdfe15a3",
+      "git_blob_sha": "d4c7003833347aaf67e68c50b86a565614616a97",
+      "bytes": 9282770
+    },
+    {
+      "name": "freMTPL2sev.rda",
+      "url": "https://raw.githubusercontent.com/dutangc/CASdatasets/master/data/freMTPL2sev.rda",
+      "sha256": "78e6e5016ae046603b37e88ff8ad8ca327f5d59f827c1f75d140388de09b14b3",
+      "git_blob_sha": "811e8c1d3180615ddc78414947b20f2c110f2a67",
+      "bytes": 267650
+    },
+    {
+      "name": "ppauto_pos98_07.csv",
+      "url": "https://www.casact.org/sites/default/files/2026-03/ppauto_pos98-07%20%281%29.csv",
+      "sha256": "6e838f1e44c67218133ef1c8e28ca2b34b9f21ba4ee94de408c412638f798d96",
+      "bytes": 1026762
+    }
+  ],
+  "pricing": {
+    "frequency": {
+      "rows": 677991,
+      "columns": [
+        "IDpol",
+        "ClaimNb",
+        "Exposure",
+        "VehPower",
+        "VehAge",
+        "DrivAge",
+        "BonusMalus",
+        "VehBrand",
+        "VehGas",
+        "Area",
+        "Density",
+        "Region"
+      ],
+      "missing": {
+        "IDpol": 0,
+        "ClaimNb": 0,
+        "Exposure": 0,
+        "VehPower": 0,
+        "VehAge": 0,
+        "DrivAge": 0,
+        "BonusMalus": 0,
+        "VehBrand": 0,
+        "VehGas": 0,
+        "Area": 0,
+        "Density": 0,
+        "Region": 0
+      }
+    },
+    "severity": {
+      "rows": 26444,
+      "columns": [
+        "IDpol",
+        "ClaimAmount"
+      ],
+      "missing": {
+        "IDpol": 0,
+        "ClaimAmount": 0
+      }
+    },
+    "policy_id_duplicates": 0,
+    "unmatched_severity_rows": 0,
+    "exposure_min": 0.00273224043715847,
+    "exposure_max": 2.01,
+    "exposure_nonpositive": 0,
+    "exposure_above_one": 1224,
+    "nonpositive_claim_amounts": 0,
+    "claim_count_total": 26444.0,
+    "count_mismatch_policies": 0,
+    "count_reconciliation": [
+      {
+        "reported_claims": 0.0,
+        "linked_severity_rows": 0,
+        "policies": 653047
+      },
+      {
+        "reported_claims": 1.0,
+        "linked_severity_rows": 1,
+        "policies": 23571
+      },
+      {
+        "reported_claims": 2.0,
+        "linked_severity_rows": 2,
+        "policies": 1298
+      },
+      {
+        "reported_claims": 3.0,
+        "linked_severity_rows": 3,
+        "policies": 62
+      },
+      {
+        "reported_claims": 4.0,
+        "linked_severity_rows": 4,
+        "policies": 5
+      },
+      {
+        "reported_claims": 5.0,
+        "linked_severity_rows": 5,
+        "policies": 2
+      },
+      {
+        "reported_claims": 6.0,
+        "linked_severity_rows": 6,
+        "policies": 1
+      },
+      {
+        "reported_claims": 8.0,
+        "linked_severity_rows": 8,
+        "policies": 1
+      },
+      {
+        "reported_claims": 9.0,
+        "linked_severity_rows": 9,
+        "policies": 1
+      },
+      {
+        "reported_claims": 11.0,
+        "linked_severity_rows": 11,
+        "policies": 2
+      },
+      {
+        "reported_claims": 16.0,
+        "linked_severity_rows": 16,
+        "policies": 1
+      }
+    ],
+    "noninteger_claim_counts": 0,
+    "nonfinite_numeric_values": {
+      "ClaimNb": 0,
+      "Exposure": 0,
+      "VehPower": 0,
+      "VehAge": 0,
+      "DrivAge": 0,
+      "BonusMalus": 0,
+      "Density": 0
+    }
+  },
+  "reserving": {
+    "rows": 13250,
+    "columns": [
+      "GRCODE",
+      "GRNAME",
+      "AccidentYear",
+      "DevelopmentYear",
+      "DevelopmentLag",
+      "IncurredLosses",
+      "CumPaidLoss",
+      "BulkLoss",
+      "EarnedPremDIR",
+      "EarnedPremCeded",
+      "EarnedPremNet",
+      "Single",
+      "PostedReserves2007"
+    ],
+    "missing": {
+      "GRCODE": 0,
+      "GRNAME": 0,
+      "AccidentYear": 0,
+      "DevelopmentYear": 0,
+      "DevelopmentLag": 0,
+      "IncurredLosses": 0,
+      "CumPaidLoss": 0,
+      "BulkLoss": 0,
+      "EarnedPremDIR": 0,
+      "EarnedPremCeded": 0,
+      "EarnedPremNet": 0,
+      "Single": 0,
+      "PostedReserves2007": 0
+    },
+    "entities": 143,
+    "entity_row_count_distribution": {
+      "20": 2,
+      "30": 3,
+      "40": 6,
+      "50": 1,
+      "60": 2,
+      "70": 5,
+      "80": 1,
+      "90": 2,
+      "100": 121
+    },
+    "complete_100_cell_entities": 121,
+    "duplicate_keys": 0,
+    "calendar_identity_errors": 0,
+    "accident_years": [
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007
+    ],
+    "development_lags": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "negative_cumulative_paid_rows": 92,
+    "negative_incremental_paid_rows": 733,
+    "zero_net_premium_rows": 1300,
+    "negative_net_premium_rows": 60,
+    "premium_variation_within_accident_year": 0,
+    "limitation": "Complete-panel availability is retrospective; it must not be described as a prospective eligibility filter. Negative net paid increments may reflect recoveries/corrections and are not silently clipped."
+  }
+}

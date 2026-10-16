@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-16",
+  "html_sha256": "ee3100f90b6e49ae66828187a535c90526061a42ae4e0badec1776a64d45c10a",
+  "checks_passed": 15,
+  "checks": [
+    {
+      "name": "Embedded aggregate JSON equals the two source reports",
+      "passed": true
+    },
+    {
+      "name": "Default premium identity: loss 100 / (1 - .25 - .05)",
+      "passed": true
+    },
+    {
+      "name": "Zero loading identity",
+      "passed": true
+    },
+    {
+      "name": "Upper slider bounds remain finite and reconcile to 325",
+      "passed": true
+    },
+    {
+      "name": "Intermediate assumption scenario and fixed study score",
+      "passed": true
+    },
+    {
+      "name": "Reset assumptions restores all controls and price index",
+      "passed": true
+    },
+    {
+      "name": "Model control uses the GLM final score and age groups",
+      "passed": true
+    },
+    {
+      "name": "Risk-decile control displays all ten fixed groups",
+      "passed": true
+    },
+    {
+      "name": "Model switching preserves the selected grouping",
+      "passed": true
+    },
+    {
+      "name": "Reserve primary 95% display matches 36 of 43",
+      "passed": true
+    },
+    {
+      "name": "Reserve primary 80% display matches 23 of 43, decision stays at 95%",
+      "passed": true
+    },
+    {
+      "name": "Reserve secondary 80% display matches 24 of 42",
+      "passed": true
+    },
+    {
+      "name": "Reserve secondary 95% display matches 32 of 42",
+      "passed": true
+    },
+    {
+      "name": "Tabs expose the selected panel and update accessibility state",
+      "passed": true
+    },
+    {
+      "name": "Keyboard tab navigation and focus are wired",
+      "passed": true
+    }
+  ],
+  "method": "Actual inline JavaScript executed in Node VM with a minimal DOM harness; checks control wiring, arithmetic and embedded evidence equality.",
+  "limitations": [
+    "No real browser was available through the supported managed-preview route.",
+    "Rendering, CSS layout, actual accessibility-tree behavior and mobile interaction remain unverified.",
+    "The DOM harness is not a substitute for final browser QA."
+  ],
+  "rendered_browser_verified": false
+}

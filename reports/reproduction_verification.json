@@ -1,0 +1,112 @@
+{
+  "all_compared_outputs_byte_identical": true,
+  "browser_rendering_verified": false,
+  "commands": [
+    {
+      "command": "python3 scripts/audit_data.py",
+      "elapsed_seconds": 20.005,
+      "exit_code": 0
+    },
+    {
+      "command": "python3 scripts/reserve_valuation.py",
+      "elapsed_seconds": 0.115,
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -m unittest discover -s tests -v",
+      "elapsed_seconds": 2.872,
+      "exit_code": 0
+    },
+    {
+      "command": "python3 scripts/run_baselines.py",
+      "elapsed_seconds": 25.05,
+      "exit_code": 0
+    },
+    {
+      "command": "python3 scripts/report_baselines.py",
+      "elapsed_seconds": 0.026,
+      "exit_code": 0
+    },
+    {
+      "command": "python3 scripts/run_challengers.py",
+      "elapsed_seconds": 59.985,
+      "exit_code": 0
+    },
+    {
+      "command": "python3 scripts/evaluate_final.py",
+      "elapsed_seconds": 28.079,
+      "exit_code": 0
+    }
+  ],
+  "core_packages": {
+    "joblib": "1.5.3",
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "date": "2026-10-16",
+  "environment_scope": "Separate source/output directory in the same Python environment; not an independent machine or external audit.",
+  "fitted_artifacts_reused": false,
+  "fresh_network_acquisition_verified": false,
+  "git_blob_hashes_verified": true,
+  "output_comparisons": {
+    "BASELINE_REPORT.md": {
+      "actual_sha256": "7a30fa2e9a146757a325f8445e820fd1540c32d6ae3f4c37c68ba6a841b39f4f",
+      "byte_identical": true,
+      "expected_sha256": "7a30fa2e9a146757a325f8445e820fd1540c32d6ae3f4c37c68ba6a841b39f4f"
+    },
+    "data_audit.json": {
+      "actual_sha256": "16262938680799b52cfa67475ab1b1c2a607d01e57d9dca55c2c6a66ec8ef1d0",
+      "byte_identical": true,
+      "expected_sha256": "16262938680799b52cfa67475ab1b1c2a607d01e57d9dca55c2c6a66ec8ef1d0"
+    },
+    "model_freeze.json": {
+      "actual_sha256": "cd486c379d71d71e69d523d4295311aca4ef4de2b3fa5ffa337ee8b367abce7a",
+      "byte_identical": true,
+      "expected_sha256": "cd486c379d71d71e69d523d4295311aca4ef4de2b3fa5ffa337ee8b367abce7a"
+    },
+    "pricing_baseline.json": {
+      "actual_sha256": "1073dd93b46cfb1a0cf8529da8370210951176bca7b18ba880fddd632fe9c3e4",
+      "byte_identical": true,
+      "expected_sha256": "1073dd93b46cfb1a0cf8529da8370210951176bca7b18ba880fddd632fe9c3e4"
+    },
+    "pricing_challenger.json": {
+      "actual_sha256": "8941e8f3f63277a1f639d685b7dc05c73c7cacf4b34c579fde98aee1c378a6fb",
+      "byte_identical": true,
+      "expected_sha256": "8941e8f3f63277a1f639d685b7dc05c73c7cacf4b34c579fde98aee1c378a6fb"
+    },
+    "pricing_final.json": {
+      "actual_sha256": "f286b2595d08c0c6c9cc9b09d266ae0e20dff811aea9eda312054dd110d656ce",
+      "byte_identical": true,
+      "expected_sha256": "f286b2595d08c0c6c9cc9b09d266ae0e20dff811aea9eda312054dd110d656ce"
+    },
+    "reserve_baseline.json": {
+      "actual_sha256": "01033735ce3cedffa4cb0b040ced9e8ee03c401d33fe5c5cef9a35df734157b4",
+      "byte_identical": true,
+      "expected_sha256": "01033735ce3cedffa4cb0b040ced9e8ee03c401d33fe5c5cef9a35df734157b4"
+    },
+    "reserve_challenger.json": {
+      "actual_sha256": "a67532a8d17b3571bff28e5fdafe8e9f59ea59bb995abd3d1bb62d2ca642dfee",
+      "byte_identical": true,
+      "expected_sha256": "a67532a8d17b3571bff28e5fdafe8e9f59ea59bb995abd3d1bb62d2ca642dfee"
+    },
+    "reserve_final.json": {
+      "actual_sha256": "261714b70e9b363fd3340899cde90ee14de38c8ad51da9ef74ddbd2f57c96d16",
+      "byte_identical": true,
+      "expected_sha256": "261714b70e9b363fd3340899cde90ee14de38c8ad51da9ef74ddbd2f57c96d16"
+    },
+    "reserve_valuation_audit.json": {
+      "actual_sha256": "b3e45d8d70bd433e0cb5953a7d2cce35adb4fdf75adf00e820daa2e1481e9641",
+      "byte_identical": true,
+      "expected_sha256": "b3e45d8d70bd433e0cb5953a7d2cce35adb4fdf75adf00e820daa2e1481e9641"
+    }
+  },
+  "python_version": "3.12.14",
+  "raw_input_mode": "Copied previously acquired raw source bytes; audit checked all three pinned SHA256 digests. No fresh network acquisition claimed.",
+  "source_commit": "ad64ab66866d63e7e6bccb0000aa05692d36e269",
+  "source_files_downloaded_from_github": 37,
+  "unit_tests_passed": 18
+}

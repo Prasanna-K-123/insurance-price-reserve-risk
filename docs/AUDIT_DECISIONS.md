@@ -44,3 +44,21 @@ The first pricing run stopped before fitting because R-imported column labels
 mixed numpy and Python string types. Converting header types consistently
 resolved that interoperability issue; feature content, splits and model
 settings were unchanged. The regression check now covers those header types.
+
+
+## Final comparisons and source reproduction — 16 October 2026
+
+Challengers and calibration were sealed before final scoring at
+`e10394de482c65c41b374904b97a3709974167a0`. The final results preserve the
+prespecified decision: select boosting for the historical combined pricing
+score, retain Mack as the reserve reference, and disclose conditional pricing
+calibration failures and reserve undercoverage. See the technical report and
+decision memo. No test-driven refit, recalibration or search was performed.
+
+A separate directory retrieved all 37 source/report blobs from final-score
+commit `ad64ab66866d63e7e6bccb0000aa05692d36e269` and checked their Git object
+hashes. It rebuilt fitted artifacts from the three checksum-verified cached
+raw inputs. All ten regenerated analysis outputs match byte-for-byte, including
+the model freeze. All 18 tests passed. This verifies a fresh source/output
+directory in the same environment, not fresh network acquisition, portability
+to every platform or an independent external audit.

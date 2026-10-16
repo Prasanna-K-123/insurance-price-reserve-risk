@@ -1,0 +1,32 @@
+{
+  "complete_observed_triangles": 121,
+  "config_sha256": "2f4bb3cf98730e08f1b9428ba8a277ba4c78f1c994e0bf57ae43007bfd6b68fe",
+  "currency_policy": "Unconverted source units privately; dimensionless public aggregate metrics.",
+  "development": {
+    "mean_absolute_normalized_error": 0.03076804266066243,
+    "mean_coverage_80": 0.660377358490566,
+    "mean_coverage_95": 0.7735849056603774,
+    "mean_normalized_error": 0.009368694975100627,
+    "mean_normalized_interval_score_80": 0.17819743338385927,
+    "mean_normalized_interval_score_95": 0.3945372183483025,
+    "mean_normalized_width_80": 0.06461654564373345,
+    "mean_normalized_width_95": 0.09882247868292937,
+    "negative_realized_remaining_paid_entities": 1,
+    "negative_total_paid_lower_80_entities": 0,
+    "negative_total_paid_lower_95_entities": 0,
+    "scored_entities": 53
+  },
+  "development_missing_endpoints": 0,
+  "eligible_development_entities": 53,
+  "eligible_test_entities": 43,
+  "entity_split_sha256": "f8bbc21058bf042bc2e4190c9fc1ed1d602cd397a8818b5c9a62df2aa11234f2",
+  "interval_caveat": "Normal approximation to Mack moments; nominal coverage is not guaranteed.",
+  "positive_cumulative_eligible_entities": 96,
+  "protocol_commit": "c0722d07944037c8cc30e1f315b9b5ef11847cf8",
+  "protocol_sha256": "a97ce15898a8b1896d25dcb922b74750512ebe57ce3f9e981cc76bd5a761308b",
+  "source_sha256": "6e838f1e44c67218133ef1c8e28ca2b34b9f21ba4ee94de408c412638f798d96",
+  "status": "Development-only Mack baseline evaluation. Final-test entities and 2009 evaluation not scored.",
+  "target": "Remaining net paid loss through lag 10, not unknown ultimate loss.",
+  "valuation_year": 2007,
+  "visible_entities": 143
+}

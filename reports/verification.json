@@ -1,0 +1,113 @@
+{
+  "baseline_command": "python3 scripts/run_baselines.py",
+  "baseline_exit_code": 0,
+  "config_sha256": "2f4bb3cf98730e08f1b9428ba8a277ba4c78f1c994e0bf57ae43007bfd6b68fe",
+  "date": "2026-10-16",
+  "final_test_evaluated": false,
+  "output_hashes": {
+    "reports/BASELINE_REPORT.md": "7a30fa2e9a146757a325f8445e820fd1540c32d6ae3f4c37c68ba6a841b39f4f",
+    "reports/pricing_baseline.json": "1073dd93b46cfb1a0cf8529da8370210951176bca7b18ba880fddd632fe9c3e4",
+    "reports/reserve_baseline.json": "01033735ce3cedffa4cb0b040ced9e8ee03c401d33fe5c5cef9a35df734157b4",
+    "reports/reserve_valuation_audit.json": "b3e45d8d70bd433e0cb5953a7d2cce35adb4fdf75adf00e820daa2e1481e9641"
+  },
+  "protocol_commit": "c0722d07944037c8cc30e1f315b9b5ef11847cf8",
+  "protocol_sha256": "a97ce15898a8b1896d25dcb922b74750512ebe57ce3f9e981cc76bd5a761308b",
+  "python": "3.12.14",
+  "reference_check": {
+    "absolute_tolerance": 0.005,
+    "method": "RAA Mack variance minimum extrapolation",
+    "remaining_paid_expected_rounded": 52135.23,
+    "source": "https://mages.github.io/ChainLadder/articles/ChainLadder.html",
+    "total_standard_error_expected_rounded": 26909.01
+  },
+  "scope": "Baseline acceptance only; not independent review, release reproducibility or final-model validation.",
+  "source_hashes": {
+    "config.json": "2f4bb3cf98730e08f1b9428ba8a277ba4c78f1c994e0bf57ae43007bfd6b68fe",
+    "docs/PROTOCOL.md": "a97ce15898a8b1896d25dcb922b74750512ebe57ce3f9e981cc76bd5a761308b",
+    "requirements-data.txt": "e4fe9b45dfbf72f2802cfbb4c7479673fe6c985e2e4f007a5c26b30e14102690",
+    "requirements.txt": "a223f66639c4feae8a68a00ea567de09613c10d2801fc01092ca7c1fec9eadc1",
+    "scripts/audit_data.py": "219b079724940b5a65c7145d020f6d17d3484acb5cbcfd4f303403d7e361536f",
+    "scripts/report_baselines.py": "85fac7864236a09ef3383e211b3b1ced380b23e877898087500c85139476036a",
+    "scripts/reserve_valuation.py": "a4fadcbffce6ff8c06719414707e9f210a4616d4a0292bc6d9ac390e10522325",
+    "scripts/run_baselines.py": "8a1296e6afb739851029bfcf24d33de90dd97c55b8eb2df267828c522e404dbb",
+    "src/insurance_risk/__init__.py": "78647fc6a9497d8ea7a9ccd4eb54fe50c8930bcff09cae3b0c1070e4afadaee1",
+    "src/insurance_risk/common.py": "314619b05b447ab0f0b05d5717451e5150faba8ee7223dc6c31323bfe195fcac",
+    "src/insurance_risk/pricing.py": "20284e3c629c968d8b2eb5d230c6a06f39dea987ee1f226925723e170410abd3",
+    "src/insurance_risk/reserving.py": "947640a9027e0d785e300466c95d7eae358f890e25b7ee1249e3100c0e21021d",
+    "tests/test_baselines.py": "efd3605105734ba8826b66516ad13c00d5d8ef1133a50dd452e09c0b150ab36e",
+    "tests/test_reserve_valuation.py": "b0a0dca35ab751a107558c8d4f55776a6a41e3bc6caf42081fe29b5986113337"
+  },
+  "test_command": "LOKY_MAX_CPU_COUNT=1 python3 -m unittest discover -s tests -v",
+  "test_result": "11 passed, exit 0; observed before the successful baseline execution",
+  "tests": [
+    "test_baselines.BaselineTests.test_claim_links_preserve_zero_loss_and_reject_unmatched_claim",
+    "test_baselines.BaselineTests.test_count_weighted_severity_equals_individual_claim_likelihood",
+    "test_baselines.BaselineTests.test_currency_scaling_preserves_normalized_results",
+    "test_baselines.BaselineTests.test_frequency_exposure_weighting_recovers_analytic_rate",
+    "test_baselines.BaselineTests.test_mack_matches_published_numerical_reference",
+    "test_baselines.BaselineTests.test_pricing_features_exclude_targets_and_exposure",
+    "test_reserve_valuation.ValuationBoundaryTests.test_duplicate_or_misdated_observation_fails_closed",
+    "test_reserve_valuation.ValuationBoundaryTests.test_future_values_absence_and_future_only_entities_cannot_change_view",
+    "test_reserve_valuation.ValuationBoundaryTests.test_gap_does_not_invent_increment_from_zero",
+    "test_reserve_valuation.ValuationBoundaryTests.test_missing_historical_cell_cannot_be_replaced_by_future_followup",
+    "test_reserve_valuation.ValuationBoundaryTests.test_negative_net_losses_are_preserved_and_flagged_without_future_filter"
+  ],
+  "verified_dependencies": [
+    {
+      "package": "numpy",
+      "version": "2.3.5"
+    },
+    {
+      "package": "pandas",
+      "version": "2.2.3"
+    },
+    {
+      "package": "rdata",
+      "version": "1.1.0"
+    },
+    {
+      "package": "xarray",
+      "version": "2026.9.0"
+    },
+    {
+      "package": "typing_extensions",
+      "version": "4.16.0"
+    },
+    {
+      "package": "packaging",
+      "version": "26.3"
+    },
+    {
+      "package": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    {
+      "package": "pytz",
+      "version": "2026.5"
+    },
+    {
+      "package": "tzdata",
+      "version": "2026.5"
+    },
+    {
+      "package": "six",
+      "version": "1.17.0"
+    },
+    {
+      "package": "scipy",
+      "version": "1.17.0"
+    },
+    {
+      "package": "scikit-learn",
+      "version": "1.8.0"
+    },
+    {
+      "package": "joblib",
+      "version": "1.5.3"
+    },
+    {
+      "package": "threadpoolctl",
+      "version": "3.6.0"
+    }
+  ]
+}

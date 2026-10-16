@@ -1,0 +1,364 @@
+{
+  "calibration_caveat": "Estimated on development. O/P=1 there after scaling is an identity, not validation evidence.",
+  "coefficients": [
+    {
+      "feature": "categories__DriverBand_[21.0, 26.0)",
+      "frequency_log_coefficient": -0.3287329942912927,
+      "severity_log_coefficient": -0.5334344538010867
+    },
+    {
+      "feature": "categories__DriverBand_[26.0, 36.0)",
+      "frequency_log_coefficient": -0.410779108796101,
+      "severity_log_coefficient": -0.40434769757657996
+    },
+    {
+      "feature": "categories__DriverBand_[36.0, 51.0)",
+      "frequency_log_coefficient": -0.11163052875272378,
+      "severity_log_coefficient": -0.3581385875459027
+    },
+    {
+      "feature": "categories__DriverBand_[51.0, 66.0)",
+      "frequency_log_coefficient": -0.09440452302376,
+      "severity_log_coefficient": -0.338625238001898
+    },
+    {
+      "feature": "categories__DriverBand_[66.0, 81.0)",
+      "frequency_log_coefficient": -0.10880723941582013,
+      "severity_log_coefficient": -0.049139072607218844
+    },
+    {
+      "feature": "categories__DriverBand_[81.0, inf)",
+      "frequency_log_coefficient": -0.07383219663591159,
+      "severity_log_coefficient": -0.29071091697680473
+    },
+    {
+      "feature": "categories__VehicleBand_[11.0, 21.0)",
+      "frequency_log_coefficient": -0.16735862538012622,
+      "severity_log_coefficient": 0.02283129941845402
+    },
+    {
+      "feature": "categories__VehicleBand_[2.0, 6.0)",
+      "frequency_log_coefficient": 0.006394031340616197,
+      "severity_log_coefficient": 0.11695993374906861
+    },
+    {
+      "feature": "categories__VehicleBand_[21.0, inf)",
+      "frequency_log_coefficient": -0.4683688329080108,
+      "severity_log_coefficient": -0.24918287285881538
+    },
+    {
+      "feature": "categories__VehicleBand_[6.0, 11.0)",
+      "frequency_log_coefficient": 0.0017647235119748793,
+      "severity_log_coefficient": -0.031051451370061264
+    },
+    {
+      "feature": "categories__VehPower_11",
+      "frequency_log_coefficient": 0.08405063339242005,
+      "severity_log_coefficient": -0.13166358004759235
+    },
+    {
+      "feature": "categories__VehPower_12",
+      "frequency_log_coefficient": -0.029232522188686567,
+      "severity_log_coefficient": 0.23139253267113402
+    },
+    {
+      "feature": "categories__VehPower_13",
+      "frequency_log_coefficient": 0.10356708580618232,
+      "severity_log_coefficient": -0.11580588919595124
+    },
+    {
+      "feature": "categories__VehPower_14",
+      "frequency_log_coefficient": 0.07048508485310523,
+      "severity_log_coefficient": 0.09522426525129561
+    },
+    {
+      "feature": "categories__VehPower_15",
+      "frequency_log_coefficient": 0.05345629010383022,
+      "severity_log_coefficient": -0.09763290298599218
+    },
+    {
+      "feature": "categories__VehPower_4",
+      "frequency_log_coefficient": -0.2205303045816045,
+      "severity_log_coefficient": -0.06435731013267659
+    },
+    {
+      "feature": "categories__VehPower_5",
+      "frequency_log_coefficient": -0.16191572555693007,
+      "severity_log_coefficient": -0.1834951023206904
+    },
+    {
+      "feature": "categories__VehPower_6",
+      "frequency_log_coefficient": -0.1447799618650479,
+      "severity_log_coefficient": 0.025194783877245754
+    },
+    {
+      "feature": "categories__VehPower_7",
+      "frequency_log_coefficient": -0.14045137753786147,
+      "severity_log_coefficient": -0.009841908157313978
+    },
+    {
+      "feature": "categories__VehPower_8",
+      "frequency_log_coefficient": -0.07901888821721993,
+      "severity_log_coefficient": -0.16950531069650038
+    },
+    {
+      "feature": "categories__VehPower_9",
+      "frequency_log_coefficient": -0.02690173308122412,
+      "severity_log_coefficient": 0.5120349713826471
+    },
+    {
+      "feature": "categories__VehBrand_B10",
+      "frequency_log_coefficient": -0.008622740307150734,
+      "severity_log_coefficient": 0.017587471921264853
+    },
+    {
+      "feature": "categories__VehBrand_B11",
+      "frequency_log_coefficient": 0.1574193243855096,
+      "severity_log_coefficient": 0.5287713193226943
+    },
+    {
+      "feature": "categories__VehBrand_B12",
+      "frequency_log_coefficient": -0.31986997095327485,
+      "severity_log_coefficient": 0.12491365765250625
+    },
+    {
+      "feature": "categories__VehBrand_B13",
+      "frequency_log_coefficient": 0.029623395155381455,
+      "severity_log_coefficient": -0.021520065082167014
+    },
+    {
+      "feature": "categories__VehBrand_B14",
+      "frequency_log_coefficient": -0.08551761591624114,
+      "severity_log_coefficient": -0.16540324110260768
+    },
+    {
+      "feature": "categories__VehBrand_B2",
+      "frequency_log_coefficient": 0.008167213115102991,
+      "severity_log_coefficient": 0.07163115997732011
+    },
+    {
+      "feature": "categories__VehBrand_B3",
+      "frequency_log_coefficient": 0.054099316398228146,
+      "severity_log_coefficient": -0.02725059615892562
+    },
+    {
+      "feature": "categories__VehBrand_B4",
+      "frequency_log_coefficient": 0.03815611199381618,
+      "severity_log_coefficient": 0.22127691051731194
+    },
+    {
+      "feature": "categories__VehBrand_B5",
+      "frequency_log_coefficient": 0.051843499120718256,
+      "severity_log_coefficient": -0.06854928241405595
+    },
+    {
+      "feature": "categories__VehBrand_B6",
+      "frequency_log_coefficient": 0.034832796508687876,
+      "severity_log_coefficient": -0.13889697386652342
+    },
+    {
+      "feature": "categories__VehGas_Regular",
+      "frequency_log_coefficient": -0.1770650148457525,
+      "severity_log_coefficient": -0.036629993526391555
+    },
+    {
+      "feature": "categories__Area_B",
+      "frequency_log_coefficient": 0.029657501971377835,
+      "severity_log_coefficient": 0.20013458218490218
+    },
+    {
+      "feature": "categories__Area_C",
+      "frequency_log_coefficient": 0.028985184893919342,
+      "severity_log_coefficient": -0.23764654216564524
+    },
+    {
+      "feature": "categories__Area_D",
+      "frequency_log_coefficient": 0.07460127397782265,
+      "severity_log_coefficient": -0.005876561272884837
+    },
+    {
+      "feature": "categories__Area_E",
+      "frequency_log_coefficient": 0.07601338310582592,
+      "severity_log_coefficient": -0.08943622743070656
+    },
+    {
+      "feature": "categories__Area_F",
+      "frequency_log_coefficient": 0.011530319163135907,
+      "severity_log_coefficient": -0.2725470456855928
+    },
+    {
+      "feature": "categories__Region_Aquitaine",
+      "frequency_log_coefficient": 0.005671422542938846,
+      "severity_log_coefficient": -0.11083686818336813
+    },
+    {
+      "feature": "categories__Region_Auvergne",
+      "frequency_log_coefficient": 0.0602268510263741,
+      "severity_log_coefficient": -0.15319990160877647
+    },
+    {
+      "feature": "categories__Region_Basse-Normandie",
+      "frequency_log_coefficient": -0.09554135325510463,
+      "severity_log_coefficient": 0.02910032899519991
+    },
+    {
+      "feature": "categories__Region_Bourgogne",
+      "frequency_log_coefficient": -0.034477181837977086,
+      "severity_log_coefficient": -0.009800129653851727
+    },
+    {
+      "feature": "categories__Region_Bretagne",
+      "frequency_log_coefficient": -0.054532880166282126,
+      "severity_log_coefficient": -0.04545354655495709
+    },
+    {
+      "feature": "categories__Region_Centre",
+      "frequency_log_coefficient": -0.05783353969543031,
+      "severity_log_coefficient": 0.21389417920251147
+    },
+    {
+      "feature": "categories__Region_Champagne-Ardenne",
+      "frequency_log_coefficient": -0.0705408075909531,
+      "severity_log_coefficient": 0.525869988249533
+    },
+    {
+      "feature": "categories__Region_Corse",
+      "frequency_log_coefficient": 0.16540089599477095,
+      "severity_log_coefficient": 0.2570872998354474
+    },
+    {
+      "feature": "categories__Region_Franche-Comte",
+      "frequency_log_coefficient": -0.10417114160046069,
+      "severity_log_coefficient": 0.007729197867156418
+    },
+    {
+      "feature": "categories__Region_Haute-Normandie",
+      "frequency_log_coefficient": -0.15310887322561387,
+      "severity_log_coefficient": -0.06883792588579615
+    },
+    {
+      "feature": "categories__Region_Ile-de-France",
+      "frequency_log_coefficient": 0.0016794735409836872,
+      "severity_log_coefficient": -0.12448955933256056
+    },
+    {
+      "feature": "categories__Region_Languedoc-Roussillon",
+      "frequency_log_coefficient": -0.029309169599500935,
+      "severity_log_coefficient": 0.004199293830398073
+    },
+    {
+      "feature": "categories__Region_Limousin",
+      "frequency_log_coefficient": 0.3357409122375008,
+      "severity_log_coefficient": -0.0672756217570246
+    },
+    {
+      "feature": "categories__Region_Lorraine",
+      "frequency_log_coefficient": -0.16089487609102268,
+      "severity_log_coefficient": 0.12223651611552806
+    },
+    {
+      "feature": "categories__Region_Midi-Pyrenees",
+      "frequency_log_coefficient": -0.14585626055930642,
+      "severity_log_coefficient": -0.1703269331196799
+    },
+    {
+      "feature": "categories__Region_Nord-Pas-de-Calais",
+      "frequency_log_coefficient": 0.005650338989208478,
+      "severity_log_coefficient": -0.05189826051079102
+    },
+    {
+      "feature": "categories__Region_Pays-de-la-Loire",
+      "frequency_log_coefficient": -0.05568285213891516,
+      "severity_log_coefficient": -0.13724761118318107
+    },
+    {
+      "feature": "categories__Region_Picardie",
+      "frequency_log_coefficient": 0.14737113420817563,
+      "severity_log_coefficient": -0.13133438125535116
+    },
+    {
+      "feature": "categories__Region_Poitou-Charentes",
+      "frequency_log_coefficient": 0.019353239900782207,
+      "severity_log_coefficient": -0.08001018214934244
+    },
+    {
+      "feature": "categories__Region_Provence-Alpes-Cotes-D'Azur",
+      "frequency_log_coefficient": 0.08559893888118449,
+      "severity_log_coefficient": 0.03797468569274766
+    },
+    {
+      "feature": "categories__Region_Rhone-Alpes",
+      "frequency_log_coefficient": 0.14868474334703194,
+      "severity_log_coefficient": 0.06578501449385268
+    },
+    {
+      "feature": "numeric__BonusMalus",
+      "frequency_log_coefficient": 0.4142364275383583,
+      "severity_log_coefficient": 0.06997983378299755
+    },
+    {
+      "feature": "numeric__LogDensity",
+      "frequency_log_coefficient": 0.12044863276914841,
+      "severity_log_coefficient": 0.0060264824976751325
+    }
+  ],
+  "config_sha256": "2f4bb3cf98730e08f1b9428ba8a277ba4c78f1c994e0bf57ae43007bfd6b68fe",
+  "constant_training_frequency": 0.07304903102696995,
+  "constant_training_severity_source_units": 2262.720803253686,
+  "convergence_warnings": 0,
+  "design_columns": 60,
+  "development_constant_tariff": {
+    "annual_loss_weighted_mae_source_units": 323.5130201779899,
+    "claims": 5405,
+    "exposure_years": 71661.47365147091,
+    "frequency_observed_to_predicted": 1.0325129419238512,
+    "frequency_poisson_deviance": 0.49031237503022507,
+    "loss_observed_to_predicted": 1.0511681064028116,
+    "policies": 135817,
+    "pure_premium_tweedie_deviance": 88.96588465458953,
+    "severity_gamma_deviance": 1.7106031346589532
+  },
+  "development_loss_calibration_multiplier": 1.1295132555055822,
+  "development_uncalibrated_glm": {
+    "annual_loss_weighted_mae_source_units": 308.13037965441714,
+    "claims": 5405,
+    "exposure_years": 71661.47365147091,
+    "frequency_observed_to_predicted": 1.032126737002232,
+    "frequency_poisson_deviance": 0.47074572953031996,
+    "loss_observed_to_predicted": 1.1295132555055822,
+    "policies": 135817,
+    "pure_premium_tweedie_deviance": 82.95252818945906,
+    "severity_gamma_deviance": 1.7275719873562898
+  },
+  "development_unknown_category_counts": {
+    "Area": 0,
+    "DriverBand": 0,
+    "Region": 0,
+    "VehBrand": 0,
+    "VehGas": 0,
+    "VehPower": 0,
+    "VehicleBand": 0
+  },
+  "exposure_above_one_preserved": 1224,
+  "frequency_iterations": 106,
+  "intercepts": {
+    "frequency": -2.214901194676015,
+    "severity": 7.933477149738432
+  },
+  "no_claim_loss_clipping": true,
+  "protocol_commit": "c0722d07944037c8cc30e1f315b9b5ef11847cf8",
+  "protocol_sha256": "a97ce15898a8b1896d25dcb922b74750512ebe57ce3f9e981cc76bd5a761308b",
+  "severity_iterations": 72,
+  "solver": "lbfgs",
+  "source_sha256": {
+    "freMTPL2freq.rda": "82c8598513d9fa78226b6c7d271a9940eca4b8083e9e32320a75d377bdfe15a3",
+    "freMTPL2sev.rda": "78e6e5016ae046603b37e88ff8ad8ca327f5d59f827c1f75d140388de09b14b3"
+  },
+  "split_counts": {
+    "development": 135817,
+    "test": 135198,
+    "train": 406976
+  },
+  "split_sha256": "5f0b318ac529808fbee9b5d9b8b3e8b2df462640b9bd3156cb1bebf3bfec1bf9",
+  "status": "Baseline fitted on training policies; development-only metrics. No final-test prediction or metric produced."
+}

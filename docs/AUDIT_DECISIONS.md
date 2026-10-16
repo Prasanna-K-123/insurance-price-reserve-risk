@@ -33,4 +33,14 @@ NAIC filing instructions support a thousands-of-dollars convention, but the
 exact CAS/S&P export scale remains unverified. Outputs therefore use source
 units and dimensionless comparisons without asserting dollar reserves.
 
-No model comparison or final test outcome has been produced at this checkpoint.
+## Baselines completed — 16 October 2026
+
+The frozen Poisson/Gamma pricing baseline and Mack reserve baseline now have
+development-only results. Both numerical and data-boundary checks passed.
+See `reports/BASELINE_REPORT.md` for the observed calibration limitations and
+reserve interval undercoverage. No final-test outcome has been evaluated.
+
+The first pricing run stopped before fitting because R-imported column labels
+mixed numpy and Python string types. Converting header types consistently
+resolved that interoperability issue; feature content, splits and model
+settings were unchanged. The regression check now covers those header types.

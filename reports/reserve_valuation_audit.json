@@ -1,0 +1,27 @@
+{
+  "allowed_columns": [
+    "GRCODE",
+    "AccidentYear",
+    "DevelopmentYear",
+    "DevelopmentLag",
+    "CumPaidLoss"
+  ],
+  "currency_unit": "Unverified; values retain source units, with no currency conversion or monetary claim.",
+  "eligible_observed_triangles": 121,
+  "eligible_with_negative_cumulative": 5,
+  "eligible_with_negative_increments": 82,
+  "eligible_with_positive_cumulative_and_nonnegative_increments": 25,
+  "eligible_with_zero_cumulative": 25,
+  "expected_cells_per_complete_triangle": 55,
+  "first_accident_year": 1998,
+  "incomplete_observed_triangles": 22,
+  "interpretation": "Observed completeness and model-domain flags only. No model fitted, final cohort selected, or forecast evaluated.",
+  "maximum_development_lag": 10,
+  "private_ledger_sha256": "0333d986e0a6b2cdf1987ce8cf5e7659f36b62cf9d7bc7f17d9efb149e2eea09",
+  "private_view_sha256": "206509e503006ae1bb2f44552ca4e1deea9b84a5e9898e87943e66cd6f48735a",
+  "source_sha256": "6e838f1e44c67218133ef1c8e28ca2b34b9f21ba4ee94de408c412638f798d96",
+  "valuation_year": 2007,
+  "vintage_limitation": "Computational cutoff in a later compiled file; not proof of point-in-time historical release availability.",
+  "visible_entities": 143,
+  "visible_records": 7513
+}

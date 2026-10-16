@@ -1,0 +1,35 @@
+{
+  "protocol_date": "2026-10-16",
+  "seed": 20261016,
+  "pricing": {
+    "split_method": "sha256(pricing:20261016:IDpol), first 64 bits",
+    "train_fraction": 0.6,
+    "development_fraction": 0.2,
+    "frequency_alpha": 0.0001,
+    "severity_alpha": 0.01,
+    "glm_max_iter": 1000,
+    "glm_tolerance": 0.000001,
+    "primary_tweedie_power": 1.5,
+    "challenger_learning_rate": 0.05,
+    "challenger_iterations": 200,
+    "challenger_leaves": 15,
+    "challenger_frequency_min_leaf": 200,
+    "challenger_severity_min_leaf": 50,
+    "challenger_l2": 10.0,
+    "bootstrap_repetitions": 1000
+  },
+  "reserving": {
+    "split_method": "sha256(reserving:20261016:GRCODE), first 64 bits",
+    "development_fraction": 0.5,
+    "first_accident_year": 1998,
+    "last_accident_year": 2007,
+    "primary_valuation_year": 2007,
+    "secondary_valuation_year": 2009,
+    "maximum_development_lag": 10,
+    "tail_factor": 1.0,
+    "last_variance_method": "Mack minimum extrapolation",
+    "interval_levels": [0.8, 0.95],
+    "challenger_simulations": 2000,
+    "bootstrap_repetitions": 1000
+  }
+}

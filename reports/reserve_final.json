@@ -1,0 +1,150 @@
+{
+  "config_sha256": "2f4bb3cf98730e08f1b9428ba8a277ba4c78f1c994e0bf57ae43007bfd6b68fe",
+  "protocol_commit": "c0722d07944037c8cc30e1f315b9b5ef11847cf8",
+  "protocol_sha256": "a97ce15898a8b1896d25dcb922b74750512ebe57ce3f9e981cc76bd5a761308b",
+  "recommendation": "mack",
+  "recommendation_scope": "Choice between two historical uncertainty approximations; neither is guaranteed calibrated.",
+  "secondary_does_not_change_primary_decision": true,
+  "valuations": {
+    "2007": {
+      "cohort": {
+        "complete_observed_triangles": 121,
+        "entity_assignment_sha256": "f8bbc21058bf042bc2e4190c9fc1ed1d602cd397a8818b5c9a62df2aa11234f2",
+        "forecast_entities": 43,
+        "group": "test",
+        "positive_cumulative_eligible_entities": 96,
+        "visible_entities": 143
+      },
+      "evaluation": {
+        "comparison_caveat": "Entity-bootstrap inference assumes sufficiently independent entities; common calendar/corporate shocks and finite simulation quantiles limit precision.",
+        "forecast_entities": 43,
+        "historical_negative_increment_entities": 30,
+        "mack": {
+          "coverage_80": 0.5348837209302325,
+          "coverage_80_wilson95": [
+            0.3891564047231397,
+            0.6748894229587816
+          ],
+          "coverage_95": 0.8372093023255814,
+          "coverage_95_wilson95": [
+            0.7002759410625284,
+            0.9188337265293799
+          ],
+          "covered_80": 23,
+          "covered_95": 36,
+          "mean_normalized_score_80": 0.13905260608242287,
+          "mean_normalized_score_95": 0.1938660698391138,
+          "mean_normalized_width_80": 0.06859161580313132,
+          "mean_normalized_width_95": 0.10490182387504335
+        },
+        "mean_absolute_normalized_error": 0.0313117271295793,
+        "mean_normalized_error": 0.012155682996509494,
+        "missing_endpoints": 0,
+        "negative_endpoint_cells": 0,
+        "negative_realized_runoff_entities": 0,
+        "primary_interval_score_difference": {
+          "ci95_percentile": [
+            -0.0022753897301079785,
+            0.0065345683900478865
+          ],
+          "estimate": 0.0017088624478155117,
+          "paired_units": 43,
+          "repetitions": 1000,
+          "seed": 20261217,
+          "uncertainty_scope": "Resampling evaluation units conditional on fitted models and calibration; not training or model-selection uncertainty."
+        },
+        "scored_entities": 43,
+        "simulation": {
+          "coverage_80": 0.5348837209302325,
+          "coverage_80_wilson95": [
+            0.3891564047231397,
+            0.6748894229587816
+          ],
+          "coverage_95": 0.8372093023255814,
+          "coverage_95_wilson95": [
+            0.7002759410625284,
+            0.9188337265293799
+          ],
+          "covered_80": 23,
+          "covered_95": 36,
+          "mean_normalized_score_80": 0.14031483044542092,
+          "mean_normalized_score_95": 0.19557493228692924,
+          "mean_normalized_width_80": 0.06863640933817523,
+          "mean_normalized_width_95": 0.10477535706256376
+        },
+        "simulation_draws_per_entity": 2000,
+        "simulation_mean_absolute_mc_error_normalized": 0.000383778070148488
+      }
+    },
+    "2009": {
+      "cohort": {
+        "complete_observed_triangles": 121,
+        "entity_assignment_sha256": "f8bbc21058bf042bc2e4190c9fc1ed1d602cd397a8818b5c9a62df2aa11234f2",
+        "forecast_entities": 42,
+        "group": "test",
+        "positive_cumulative_eligible_entities": 95,
+        "visible_entities": 143
+      },
+      "evaluation": {
+        "comparison_caveat": "Entity-bootstrap inference assumes sufficiently independent entities; common calendar/corporate shocks and finite simulation quantiles limit precision.",
+        "forecast_entities": 42,
+        "historical_negative_increment_entities": 36,
+        "mack": {
+          "coverage_80": 0.5714285714285714,
+          "coverage_80_wilson95": [
+            0.4220623987810458,
+            0.7088234882381393
+          ],
+          "coverage_95": 0.7619047619047619,
+          "coverage_95_wilson95": [
+            0.6147245613168169,
+            0.8651903577535287
+          ],
+          "covered_80": 24,
+          "covered_95": 32,
+          "mean_normalized_score_80": 0.06388620155465599,
+          "mean_normalized_score_95": 0.1112532221406456,
+          "mean_normalized_width_80": 0.03275146719526996,
+          "mean_normalized_width_95": 0.050089046644249256
+        },
+        "mean_absolute_normalized_error": 0.012015969861103053,
+        "mean_normalized_error": 0.0017185728902199082,
+        "missing_endpoints": 0,
+        "negative_endpoint_cells": 0,
+        "negative_realized_runoff_entities": 0,
+        "primary_interval_score_difference": {
+          "ci95_percentile": [
+            -0.002028822440799425,
+            0.005917068551498348
+          ],
+          "estimate": 0.001664287743524644,
+          "paired_units": 42,
+          "repetitions": 1000,
+          "seed": 20261218,
+          "uncertainty_scope": "Resampling evaluation units conditional on fitted models and calibration; not training or model-selection uncertainty."
+        },
+        "scored_entities": 42,
+        "simulation": {
+          "coverage_80": 0.5714285714285714,
+          "coverage_80_wilson95": [
+            0.4220623987810458,
+            0.7088234882381393
+          ],
+          "coverage_95": 0.7619047619047619,
+          "coverage_95_wilson95": [
+            0.6147245613168169,
+            0.8651903577535287
+          ],
+          "covered_80": 24,
+          "covered_95": 32,
+          "mean_normalized_score_80": 0.06415219362554672,
+          "mean_normalized_score_95": 0.11291750988417026,
+          "mean_normalized_width_80": 0.03271935032375457,
+          "mean_normalized_width_95": 0.05009434551936533
+        },
+        "simulation_draws_per_entity": 2000,
+        "simulation_mean_absolute_mc_error_normalized": 0.00023909370848574125
+      }
+    }
+  }
+}

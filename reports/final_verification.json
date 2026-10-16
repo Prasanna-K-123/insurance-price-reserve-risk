@@ -1,0 +1,19 @@
+{
+  "checks_scope": "Implementation and declared validation gates; not external independent review or a release reproduction.",
+  "date": "2026-10-16",
+  "exit_code": 0,
+  "final_test_recalibration": false,
+  "final_test_refitting": false,
+  "freeze_verified_before_and_after_final_scoring": true,
+  "output_hashes": {
+    "reports/model_freeze.json": "cd486c379d71d71e69d523d4295311aca4ef4de2b3fa5ffa337ee8b367abce7a",
+    "reports/pricing_final.json": "f286b2595d08c0c6c9cc9b09d266ae0e20dff811aea9eda312054dd110d656ce",
+    "reports/reserve_final.json": "261714b70e9b363fd3340899cde90ee14de38c8ad51da9ef74ddbd2f57c96d16"
+  },
+  "post_test_hyperparameter_search": false,
+  "pre_test_freeze_commit": "e10394de482c65c41b374904b97a3709974167a0",
+  "pricing_reference_metric_matches_saved_predictions": true,
+  "reserve_saved_forecast_scores_and_coverage_match_reports": true,
+  "run_command": "python3 scripts/evaluate_final.py",
+  "unit_tests_passed": 18
+}

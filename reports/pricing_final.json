@@ -1,0 +1,860 @@
+{
+  "claims": 5303,
+  "config_sha256": "2f4bb3cf98730e08f1b9428ba8a277ba4c78f1c994e0bf57ae43007bfd6b68fe",
+  "hgb_unseen_categories": {
+    "Area": 0,
+    "Region": 0,
+    "VehBrand": 0,
+    "VehGas": 0,
+    "VehPower": 0
+  },
+  "models": {
+    "glm": {
+      "age_groups": [
+        {
+          "claims": 138,
+          "exposure_years": 503.52952167078377,
+          "group": "[-inf, 21.0)",
+          "observed_annual_loss_source_units": 3758.847055719354,
+          "observed_to_predicted": 4.465091034692826,
+          "policies": 1348,
+          "predicted_annual_loss_source_units": 841.829881297805,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 340,
+          "exposure_years": 2700.9350355565534,
+          "group": "[21.0, 26.0)",
+          "observed_annual_loss_source_units": 384.95462730955774,
+          "observed_to_predicted": 1.3499529418479497,
+          "policies": 6501,
+          "predicted_annual_loss_source_units": 285.1615159137278,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 1011,
+          "exposure_years": 13897.622497941462,
+          "group": "[26.0, 36.0)",
+          "observed_annual_loss_source_units": 168.08793448994714,
+          "observed_to_predicted": 0.9674860814332974,
+          "policies": 29935,
+          "predicted_annual_loss_source_units": 173.73679861205926,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 1957,
+          "exposure_years": 26311.900830151957,
+          "group": "[36.0, 51.0)",
+          "observed_annual_loss_source_units": 130.15187812184462,
+          "observed_to_predicted": 0.7992595890177787,
+          "policies": 50062,
+          "predicted_annual_loss_source_units": 162.84055882493706,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 1332,
+          "exposure_years": 19293.882050303167,
+          "group": "[51.0, 66.0)",
+          "observed_annual_loss_source_units": 113.17824242455593,
+          "observed_to_predicted": 0.7374895716746388,
+          "policies": 34182,
+          "predicted_annual_loss_source_units": 153.4641936258961,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 471,
+          "exposure_years": 7812.638118871174,
+          "group": "[66.0, 81.0)",
+          "observed_annual_loss_source_units": 116.13477498828475,
+          "observed_to_predicted": 0.6261222372710669,
+          "policies": 12000,
+          "predicted_annual_loss_source_units": 185.48259121805722,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 54,
+          "exposure_years": 883.896423384984,
+          "group": "[81.0, inf)",
+          "observed_annual_loss_source_units": 77.05321370028413,
+          "observed_to_predicted": 0.5091531246423316,
+          "policies": 1170,
+          "predicted_annual_loss_source_units": 151.33603226811627,
+          "sparse_claims_below_30": false
+        }
+      ],
+      "calibrated_annual_loss_mae_source_units": 318.3354536035292,
+      "calibrated_loss_observed_to_predicted": 0.9529640902732853,
+      "calibrated_tweedie_deviance": 79.63102386853515,
+      "region_groups": [
+        {
+          "claims": 18,
+          "exposure_years": 255.74914813983082,
+          "group": "Alsace",
+          "observed_annual_loss_source_units": 54.09062004944182,
+          "observed_to_predicted": 0.2972437108022665,
+          "policies": 458,
+          "predicted_annual_loss_source_units": 181.9739765172834,
+          "sparse_claims_below_30": true
+        },
+        {
+          "claims": 227,
+          "exposure_years": 2921.492036829104,
+          "group": "Aquitaine",
+          "observed_annual_loss_source_units": 146.29397739652336,
+          "observed_to_predicted": 1.0062216564291329,
+          "policies": 6288,
+          "predicted_annual_loss_source_units": 145.38941441162143,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 21,
+          "exposure_years": 456.8429912418594,
+          "group": "Auvergne",
+          "observed_annual_loss_source_units": 63.39385862366793,
+          "observed_to_predicted": 0.46470029343731567,
+          "policies": 1040,
+          "predicted_annual_loss_source_units": 136.41880480589637,
+          "sparse_claims_below_30": true
+        },
+        {
+          "claims": 91,
+          "exposure_years": 1314.1739351747885,
+          "group": "Basse-Normandie",
+          "observed_annual_loss_source_units": 167.53921540128255,
+          "observed_to_predicted": 1.1064326544401188,
+          "policies": 2151,
+          "predicted_annual_loss_source_units": 151.42287669199476,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 66,
+          "exposure_years": 998.8541118347182,
+          "group": "Bourgogne",
+          "observed_annual_loss_source_units": 92.84954519499074,
+          "observed_to_predicted": 0.6264872268467594,
+          "policies": 2087,
+          "predicted_annual_loss_source_units": 148.20660536420164,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 387,
+          "exposure_years": 5441.150211093645,
+          "group": "Bretagne",
+          "observed_annual_loss_source_units": 151.17683175202515,
+          "observed_to_predicted": 1.069967695052177,
+          "policies": 8304,
+          "predicted_annual_loss_source_units": 141.29102444037153,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 1287,
+          "exposure_years": 20399.467479601768,
+          "group": "Centre",
+          "observed_annual_loss_source_units": 184.2123547468877,
+          "observed_to_predicted": 1.0346048969343775,
+          "policies": 31975,
+          "predicted_annual_loss_source_units": 178.05092097739401,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 17,
+          "exposure_years": 241.61379070289695,
+          "group": "Champagne-Ardenne",
+          "observed_annual_loss_source_units": 89.02492667088518,
+          "observed_to_predicted": 0.37459494603820814,
+          "policies": 604,
+          "predicted_annual_loss_source_units": 237.6565076823134,
+          "sparse_claims_below_30": true
+        },
+        {
+          "claims": 27,
+          "exposure_years": 344.9247271502358,
+          "group": "Corse",
+          "observed_annual_loss_source_units": 143.24287623044142,
+          "observed_to_predicted": 0.5815194159749838,
+          "policies": 895,
+          "predicted_annual_loss_source_units": 246.32518243656298,
+          "sparse_claims_below_30": true
+        },
+        {
+          "claims": 11,
+          "exposure_years": 118.45369114454674,
+          "group": "Franche-Comte",
+          "observed_annual_loss_source_units": 126.72918720347609,
+          "observed_to_predicted": 0.7649456172758379,
+          "policies": 261,
+          "predicted_annual_loss_source_units": 165.67084553643215,
+          "sparse_claims_below_30": true
+        },
+        {
+          "claims": 52,
+          "exposure_years": 647.4083411932031,
+          "group": "Haute-Normandie",
+          "observed_annual_loss_source_units": 125.67011393466144,
+          "observed_to_predicted": 0.9514407848900082,
+          "policies": 1741,
+          "predicted_annual_loss_source_units": 132.08400977806477,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 478,
+          "exposure_years": 6072.907914514561,
+          "group": "Ile-de-France",
+          "observed_annual_loss_source_units": 175.45517979176748,
+          "observed_to_predicted": 1.0293030764113003,
+          "policies": 14001,
+          "predicted_annual_loss_source_units": 170.4601723367017,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 212,
+          "exposure_years": 2950.8264952466507,
+          "group": "Languedoc-Roussillon",
+          "observed_annual_loss_source_units": 126.37318073451485,
+          "observed_to_predicted": 0.8083713609106491,
+          "policies": 7168,
+          "predicted_annual_loss_source_units": 156.33060106453118,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 35,
+          "exposure_years": 488.3220645257879,
+          "group": "Limousin",
+          "observed_annual_loss_source_units": 75.76213054375766,
+          "observed_to_predicted": 0.45805941329387795,
+          "policies": 926,
+          "predicted_annual_loss_source_units": 165.39804301576663,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 101,
+          "exposure_years": 1582.0340422187292,
+          "group": "Lorraine",
+          "observed_annual_loss_source_units": 107.36077446335827,
+          "observed_to_predicted": 0.7175609515670621,
+          "policies": 2576,
+          "predicted_annual_loss_source_units": 149.61903128771982,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 55,
+          "exposure_years": 1366.7334493599822,
+          "group": "Midi-Pyrenees",
+          "observed_annual_loss_source_units": 76.8179413836435,
+          "observed_to_predicted": 0.6744918865866006,
+          "policies": 3338,
+          "predicted_annual_loss_source_units": 113.89008957898048,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 191,
+          "exposure_years": 2339.377225091698,
+          "group": "Nord-Pas-de-Calais",
+          "observed_annual_loss_source_units": 146.27559691087737,
+          "observed_to_predicted": 0.8008462347793244,
+          "policies": 5487,
+          "predicted_annual_loss_source_units": 182.65128879726086,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 318,
+          "exposure_years": 4313.48521446216,
+          "group": "Pays-de-la-Loire",
+          "observed_annual_loss_source_units": 113.01006396535924,
+          "observed_to_predicted": 0.8223091290286348,
+          "policies": 7737,
+          "predicted_annual_loss_source_units": 137.4301463719053,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 64,
+          "exposure_years": 728.8485702522644,
+          "group": "Picardie",
+          "observed_annual_loss_source_units": 412.150290554908,
+          "observed_to_predicted": 2.1102311841898387,
+          "policies": 1605,
+          "predicted_annual_loss_source_units": 195.31049187539185,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 177,
+          "exposure_years": 2181.118754397784,
+          "group": "Poitou-Charentes",
+          "observed_annual_loss_source_units": 107.63186989551042,
+          "observed_to_predicted": 0.6898404135951931,
+          "policies": 3784,
+          "predicted_annual_loss_source_units": 156.02430326540733,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 630,
+          "exposure_years": 7228.320818175014,
+          "group": "Provence-Alpes-Cotes-D'Azur",
+          "observed_annual_loss_source_units": 186.98952965693812,
+          "observed_to_predicted": 0.9619201733175342,
+          "policies": 15936,
+          "predicted_annual_loss_source_units": 194.3919410818012,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 838,
+          "exposure_years": 9012.299465528857,
+          "group": "Rhone-Alpes",
+          "observed_annual_loss_source_units": 205.78114132730622,
+          "observed_to_predicted": 0.9133718903083268,
+          "policies": 16836,
+          "predicted_annual_loss_source_units": 225.2983078533769,
+          "sparse_claims_below_30": false
+        }
+      ],
+      "training_risk_bands": [
+        {
+          "claims": 283,
+          "exposure_years": 7301.51928662325,
+          "group": "01",
+          "observed_annual_loss_source_units": 75.5671290235229,
+          "observed_to_predicted": 1.1097097969152243,
+          "policies": 13472,
+          "predicted_annual_loss_source_units": 68.09629799933704,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 361,
+          "exposure_years": 7374.140297926492,
+          "group": "02",
+          "observed_annual_loss_source_units": 78.03784668455685,
+          "observed_to_predicted": 0.8758836812765197,
+          "policies": 13302,
+          "predicted_annual_loss_source_units": 89.09613040263964,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 377,
+          "exposure_years": 7514.993037652519,
+          "group": "03",
+          "observed_annual_loss_source_units": 88.76975755767104,
+          "observed_to_predicted": 0.8610305165631409,
+          "policies": 13498,
+          "predicted_annual_loss_source_units": 103.09710962626654,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 429,
+          "exposure_years": 7585.936942884947,
+          "group": "04",
+          "observed_annual_loss_source_units": 88.06160729118149,
+          "observed_to_predicted": 0.7536004287785778,
+          "policies": 13549,
+          "predicted_annual_loss_source_units": 116.85450794383195,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 458,
+          "exposure_years": 7515.413553409688,
+          "group": "05",
+          "observed_annual_loss_source_units": 91.8309491680448,
+          "observed_to_predicted": 0.6993437742199035,
+          "policies": 13568,
+          "predicted_annual_loss_source_units": 131.31016898016918,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 552,
+          "exposure_years": 7563.873720338348,
+          "group": "06",
+          "observed_annual_loss_source_units": 120.73016866272474,
+          "observed_to_predicted": 0.8157647624535935,
+          "policies": 13640,
+          "predicted_annual_loss_source_units": 147.99630263460014,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 511,
+          "exposure_years": 7307.282247922749,
+          "group": "07",
+          "observed_annual_loss_source_units": 138.85393578281918,
+          "observed_to_predicted": 0.8160330834161097,
+          "policies": 13397,
+          "predicted_annual_loss_source_units": 170.1572382354198,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 621,
+          "exposure_years": 6998.281956733288,
+          "group": "08",
+          "observed_annual_loss_source_units": 195.78978790382845,
+          "observed_to_predicted": 0.9654712526695536,
+          "policies": 13445,
+          "predicted_annual_loss_source_units": 202.79193954502995,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 670,
+          "exposure_years": 6467.8934680739585,
+          "group": "09",
+          "observed_annual_loss_source_units": 216.0232302675928,
+          "observed_to_predicted": 0.8127950408947056,
+          "policies": 13714,
+          "predicted_annual_loss_source_units": 265.77823362430894,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 1041,
+          "exposure_years": 5775.069966314844,
+          "group": "10",
+          "observed_annual_loss_source_units": 693.3819336140823,
+          "observed_to_predicted": 1.2778140015728874,
+          "policies": 13613,
+          "predicted_annual_loss_source_units": 542.631347567474,
+          "sparse_claims_below_30": false
+        }
+      ],
+      "uncalibrated": {
+        "annual_loss_weighted_mae_source_units": 300.6684660163102,
+        "claims": 5303,
+        "exposure_years": 71404.40447788007,
+        "frequency_observed_to_predicted": 1.0123814277589684,
+        "frequency_poisson_deviance": 0.4602610150124589,
+        "loss_observed_to_predicted": 1.076385571984494,
+        "policies": 135198,
+        "pure_premium_tweedie_deviance": 79.5257602510228,
+        "severity_gamma_deviance": 1.6274173887466266
+      }
+    },
+    "hgb": {
+      "age_groups": [
+        {
+          "claims": 138,
+          "exposure_years": 503.52952167078377,
+          "group": "[-inf, 21.0)",
+          "observed_annual_loss_source_units": 3758.847055719354,
+          "observed_to_predicted": 4.7211322974992225,
+          "policies": 1348,
+          "predicted_annual_loss_source_units": 796.1749044207912,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 340,
+          "exposure_years": 2700.9350355565534,
+          "group": "[21.0, 26.0)",
+          "observed_annual_loss_source_units": 384.95462730955774,
+          "observed_to_predicted": 1.3571692347787772,
+          "policies": 6501,
+          "predicted_annual_loss_source_units": 283.6452650448612,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 1011,
+          "exposure_years": 13897.622497941462,
+          "group": "[26.0, 36.0)",
+          "observed_annual_loss_source_units": 168.08793448994714,
+          "observed_to_predicted": 0.9502988765873354,
+          "policies": 29935,
+          "predicted_annual_loss_source_units": 176.87902051781427,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 1957,
+          "exposure_years": 26311.900830151957,
+          "group": "[36.0, 51.0)",
+          "observed_annual_loss_source_units": 130.15187812184462,
+          "observed_to_predicted": 0.779867050042573,
+          "policies": 50062,
+          "predicted_annual_loss_source_units": 166.88982835566603,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 1332,
+          "exposure_years": 19293.882050303167,
+          "group": "[51.0, 66.0)",
+          "observed_annual_loss_source_units": 113.17824242455593,
+          "observed_to_predicted": 0.7090162240625846,
+          "policies": 34182,
+          "predicted_annual_loss_source_units": 159.62715461722036,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 471,
+          "exposure_years": 7812.638118871174,
+          "group": "[66.0, 81.0)",
+          "observed_annual_loss_source_units": 116.13477498828475,
+          "observed_to_predicted": 0.7035243763393958,
+          "policies": 12000,
+          "predicted_annual_loss_source_units": 165.07569445221148,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 54,
+          "exposure_years": 883.896423384984,
+          "group": "[81.0, inf)",
+          "observed_annual_loss_source_units": 77.05321370028413,
+          "observed_to_predicted": 0.557571176114658,
+          "policies": 1170,
+          "predicted_annual_loss_source_units": 138.19439921054857,
+          "sparse_claims_below_30": false
+        }
+      ],
+      "calibrated_annual_loss_mae_source_units": 315.8060341413878,
+      "calibrated_loss_observed_to_predicted": 0.9475555457388367,
+      "calibrated_tweedie_deviance": 78.18126763469279,
+      "region_groups": [
+        {
+          "claims": 18,
+          "exposure_years": 255.74914813983082,
+          "group": "Alsace",
+          "observed_annual_loss_source_units": 54.09062004944182,
+          "observed_to_predicted": 0.3793246379044248,
+          "policies": 458,
+          "predicted_annual_loss_source_units": 142.59717045606348,
+          "sparse_claims_below_30": true
+        },
+        {
+          "claims": 227,
+          "exposure_years": 2921.492036829104,
+          "group": "Aquitaine",
+          "observed_annual_loss_source_units": 146.29397739652336,
+          "observed_to_predicted": 0.9449050015216263,
+          "policies": 6288,
+          "predicted_annual_loss_source_units": 154.82400575818636,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 21,
+          "exposure_years": 456.8429912418594,
+          "group": "Auvergne",
+          "observed_annual_loss_source_units": 63.39385862366793,
+          "observed_to_predicted": 0.47683245461203705,
+          "policies": 1040,
+          "predicted_annual_loss_source_units": 132.9478688174587,
+          "sparse_claims_below_30": true
+        },
+        {
+          "claims": 91,
+          "exposure_years": 1314.1739351747885,
+          "group": "Basse-Normandie",
+          "observed_annual_loss_source_units": 167.53921540128255,
+          "observed_to_predicted": 1.184673221013765,
+          "policies": 2151,
+          "predicted_annual_loss_source_units": 141.4223031545472,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 66,
+          "exposure_years": 998.8541118347182,
+          "group": "Bourgogne",
+          "observed_annual_loss_source_units": 92.84954519499074,
+          "observed_to_predicted": 0.5931760277955833,
+          "policies": 2087,
+          "predicted_annual_loss_source_units": 156.52949688484034,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 387,
+          "exposure_years": 5441.150211093645,
+          "group": "Bretagne",
+          "observed_annual_loss_source_units": 151.17683175202515,
+          "observed_to_predicted": 0.9838102674805882,
+          "policies": 8304,
+          "predicted_annual_loss_source_units": 153.66462086146916,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 1287,
+          "exposure_years": 20399.467479601768,
+          "group": "Centre",
+          "observed_annual_loss_source_units": 184.2123547468877,
+          "observed_to_predicted": 1.1599777377219846,
+          "policies": 31975,
+          "predicted_annual_loss_source_units": 158.80680185177695,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 17,
+          "exposure_years": 241.61379070289695,
+          "group": "Champagne-Ardenne",
+          "observed_annual_loss_source_units": 89.02492667088518,
+          "observed_to_predicted": 0.30619917012807285,
+          "policies": 604,
+          "predicted_annual_loss_source_units": 290.7418940216234,
+          "sparse_claims_below_30": true
+        },
+        {
+          "claims": 27,
+          "exposure_years": 344.9247271502358,
+          "group": "Corse",
+          "observed_annual_loss_source_units": 143.24287623044142,
+          "observed_to_predicted": 0.4553703033962082,
+          "policies": 895,
+          "predicted_annual_loss_source_units": 314.5634995565549,
+          "sparse_claims_below_30": true
+        },
+        {
+          "claims": 11,
+          "exposure_years": 118.45369114454674,
+          "group": "Franche-Comte",
+          "observed_annual_loss_source_units": 126.72918720347609,
+          "observed_to_predicted": 0.7512041488405887,
+          "policies": 261,
+          "predicted_annual_loss_source_units": 168.70139415373356,
+          "sparse_claims_below_30": true
+        },
+        {
+          "claims": 52,
+          "exposure_years": 647.4083411932031,
+          "group": "Haute-Normandie",
+          "observed_annual_loss_source_units": 125.67011393466144,
+          "observed_to_predicted": 0.9751888383867791,
+          "policies": 1741,
+          "predicted_annual_loss_source_units": 128.86746544654176,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 478,
+          "exposure_years": 6072.907914514561,
+          "group": "Ile-de-France",
+          "observed_annual_loss_source_units": 175.45517979176748,
+          "observed_to_predicted": 0.932030411206078,
+          "policies": 14001,
+          "predicted_annual_loss_source_units": 188.25048805512975,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 212,
+          "exposure_years": 2950.8264952466507,
+          "group": "Languedoc-Roussillon",
+          "observed_annual_loss_source_units": 126.37318073451485,
+          "observed_to_predicted": 0.754129110071703,
+          "policies": 7168,
+          "predicted_annual_loss_source_units": 167.5749935213338,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 35,
+          "exposure_years": 488.3220645257879,
+          "group": "Limousin",
+          "observed_annual_loss_source_units": 75.76213054375766,
+          "observed_to_predicted": 0.48546495425571323,
+          "policies": 926,
+          "predicted_annual_loss_source_units": 156.06096769624034,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 101,
+          "exposure_years": 1582.0340422187292,
+          "group": "Lorraine",
+          "observed_annual_loss_source_units": 107.36077446335827,
+          "observed_to_predicted": 0.6874190814785599,
+          "policies": 2576,
+          "predicted_annual_loss_source_units": 156.17950876841752,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 55,
+          "exposure_years": 1366.7334493599822,
+          "group": "Midi-Pyrenees",
+          "observed_annual_loss_source_units": 76.8179413836435,
+          "observed_to_predicted": 0.6863970569504322,
+          "policies": 3338,
+          "predicted_annual_loss_source_units": 111.91473011981587,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 191,
+          "exposure_years": 2339.377225091698,
+          "group": "Nord-Pas-de-Calais",
+          "observed_annual_loss_source_units": 146.27559691087737,
+          "observed_to_predicted": 0.7648620355641652,
+          "policies": 5487,
+          "predicted_annual_loss_source_units": 191.24442070521113,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 318,
+          "exposure_years": 4313.48521446216,
+          "group": "Pays-de-la-Loire",
+          "observed_annual_loss_source_units": 113.01006396535924,
+          "observed_to_predicted": 0.763876707192518,
+          "policies": 7737,
+          "predicted_annual_loss_source_units": 147.9428066090744,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 64,
+          "exposure_years": 728.8485702522644,
+          "group": "Picardie",
+          "observed_annual_loss_source_units": 412.150290554908,
+          "observed_to_predicted": 2.106141489270006,
+          "policies": 1605,
+          "predicted_annual_loss_source_units": 195.68974480330868,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 177,
+          "exposure_years": 2181.118754397784,
+          "group": "Poitou-Charentes",
+          "observed_annual_loss_source_units": 107.63186989551042,
+          "observed_to_predicted": 0.6458046269027112,
+          "policies": 3784,
+          "predicted_annual_loss_source_units": 166.6632065052158,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 630,
+          "exposure_years": 7228.320818175014,
+          "group": "Provence-Alpes-Cotes-D'Azur",
+          "observed_annual_loss_source_units": 186.98952965693812,
+          "observed_to_predicted": 0.882876580565531,
+          "policies": 15936,
+          "predicted_annual_loss_source_units": 211.79577505290834,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 838,
+          "exposure_years": 9012.299465528857,
+          "group": "Rhone-Alpes",
+          "observed_annual_loss_source_units": 205.78114132730622,
+          "observed_to_predicted": 0.917236135997859,
+          "policies": 16836,
+          "predicted_annual_loss_source_units": 224.3491433135017,
+          "sparse_claims_below_30": false
+        }
+      ],
+      "training_risk_bands": [
+        {
+          "claims": 253,
+          "exposure_years": 8701.945274346883,
+          "group": "01",
+          "observed_annual_loss_source_units": 45.55664710609822,
+          "observed_to_predicted": 0.7944126470678288,
+          "policies": 13339,
+          "predicted_annual_loss_source_units": 57.346326590151186,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 343,
+          "exposure_years": 8062.770875814058,
+          "group": "02",
+          "observed_annual_loss_source_units": 92.19835233441941,
+          "observed_to_predicted": 1.0918471945530068,
+          "policies": 13376,
+          "predicted_annual_loss_source_units": 84.44254177175831,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 375,
+          "exposure_years": 7666.688562018115,
+          "group": "03",
+          "observed_annual_loss_source_units": 77.80520431665744,
+          "observed_to_predicted": 0.7719941285071099,
+          "policies": 13313,
+          "predicted_annual_loss_source_units": 100.78470993959233,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 401,
+          "exposure_years": 7476.114400029943,
+          "group": "04",
+          "observed_annual_loss_source_units": 86.56571119315775,
+          "observed_to_predicted": 0.749378663235218,
+          "policies": 13466,
+          "predicted_annual_loss_source_units": 115.51664791126588,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 437,
+          "exposure_years": 7257.370868328468,
+          "group": "05",
+          "observed_annual_loss_source_units": 82.61088221581913,
+          "observed_to_predicted": 0.6281338357557772,
+          "policies": 13539,
+          "predicted_annual_loss_source_units": 131.51796243617548,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 486,
+          "exposure_years": 6767.544325174041,
+          "group": "06",
+          "observed_annual_loss_source_units": 138.79310793813593,
+          "observed_to_predicted": 0.9231963572625201,
+          "policies": 13487,
+          "predicted_annual_loss_source_units": 150.33974825213565,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 460,
+          "exposure_years": 6670.9590373530955,
+          "group": "07",
+          "observed_annual_loss_source_units": 151.57843337638207,
+          "observed_to_predicted": 0.8685134002148088,
+          "policies": 13709,
+          "predicted_annual_loss_source_units": 174.52630361131133,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 536,
+          "exposure_years": 6371.537222097462,
+          "group": "08",
+          "observed_annual_loss_source_units": 181.27662285237017,
+          "observed_to_predicted": 0.8655377830048526,
+          "policies": 13592,
+          "predicted_annual_loss_source_units": 209.43813939934478,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 692,
+          "exposure_years": 6251.045323751778,
+          "group": "09",
+          "observed_annual_loss_source_units": 202.119529544811,
+          "observed_to_predicted": 0.7391102892202389,
+          "policies": 13696,
+          "predicted_annual_loss_source_units": 273.46328754000575,
+          "sparse_claims_below_30": false
+        },
+        {
+          "claims": 1320,
+          "exposure_years": 6178.428588966241,
+          "group": "10",
+          "observed_annual_loss_source_units": 728.3582702625275,
+          "observed_to_predicted": 1.2814102573035702,
+          "policies": 13681,
+          "predicted_annual_loss_source_units": 568.4036522348339,
+          "sparse_claims_below_30": false
+        }
+      ],
+      "uncalibrated": {
+        "annual_loss_weighted_mae_source_units": 271.21276785208846,
+        "claims": 5303,
+        "exposure_years": 71404.40447788007,
+        "frequency_observed_to_predicted": 1.0100232272353573,
+        "frequency_poisson_deviance": 0.4496531491571256,
+        "loss_observed_to_predicted": 1.34303480293072,
+        "policies": 135198,
+        "pure_premium_tweedie_deviance": 78.70341621134133,
+        "severity_gamma_deviance": 1.7631881537036922
+      }
+    }
+  },
+  "policies": 135198,
+  "primary_difference_hgb_minus_glm": {
+    "ci95_percentile": [
+      -2.2358874844026695,
+      -0.6126892151867034
+    ],
+    "estimate": -1.4497562338423748,
+    "paired_units": 135198,
+    "repetitions": 1000,
+    "seed": 20261117,
+    "uncertainty_scope": "Resampling evaluation units conditional on fitted models and calibration; not training or model-selection uncertainty."
+  },
+  "protocol_commit": "c0722d07944037c8cc30e1f315b9b5ef11847cf8",
+  "protocol_sha256": "a97ce15898a8b1896d25dcb922b74750512ebe57ce3f9e981cc76bd5a761308b",
+  "recommendation": "hgb",
+  "recommendation_scope": "Historical predictive loss-cost study, conditional on reported checks; no profit or deployment claim.",
+  "tail_sensitivity": {
+    "interpretation": "Outcome-selected diagnostic only; does not replace the uncapped primary evaluation.",
+    "paired_deviance_difference_remaining": -1.5524934992891724,
+    "removed_actual_loss_fraction": 0.24735559556665232,
+    "removed_policies": 10
+  },
+  "test_source_scope": "Policy split; observation chronology unavailable."
+}

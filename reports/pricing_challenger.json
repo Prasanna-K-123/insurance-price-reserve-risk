@@ -1,0 +1,59 @@
+{
+  "category_cardinalities": {
+    "Area": 6,
+    "Region": 22,
+    "VehBrand": 11,
+    "VehGas": 2,
+    "VehPower": 12
+  },
+  "config_sha256": "2f4bb3cf98730e08f1b9428ba8a277ba4c78f1c994e0bf57ae43007bfd6b68fe",
+  "development_loss_calibration_multiplier": 1.417367888321013,
+  "development_uncalibrated_hgb": {
+    "annual_loss_weighted_mae_source_units": 278.6805619208254,
+    "claims": 5405,
+    "exposure_years": 71661.47365147091,
+    "frequency_observed_to_predicted": 1.032012489245193,
+    "frequency_poisson_deviance": 0.45918780783204216,
+    "loss_observed_to_predicted": 1.417367888321013,
+    "policies": 135817,
+    "pure_premium_tweedie_deviance": 82.74726213561037,
+    "severity_gamma_deviance": 1.8173135625785426
+  },
+  "development_unseen_categories": {
+    "Area": 0,
+    "Region": 0,
+    "VehBrand": 0,
+    "VehGas": 0,
+    "VehPower": 0
+  },
+  "early_stopping": false,
+  "frequency_iterations": 200,
+  "hyperparameter_search": false,
+  "parameters": {
+    "categorical_features": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "early_stopping": false,
+    "frequency_min_leaf": 200,
+    "l2_regularization": 10.0,
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "random_state": 20261016,
+    "severity_min_leaf": 50
+  },
+  "protocol_commit": "c0722d07944037c8cc30e1f315b9b5ef11847cf8",
+  "protocol_sha256": "a97ce15898a8b1896d25dcb922b74750512ebe57ce3f9e981cc76bd5a761308b",
+  "severity_iterations": 200,
+  "split_counts": {
+    "development": 135817,
+    "test": 135198,
+    "train": 406976
+  },
+  "split_sha256": "5f0b318ac529808fbee9b5d9b8b3e8b2df462640b9bd3156cb1bebf3bfec1bf9",
+  "status": "Fixed challenger fitted; development only, no final-test scoring."
+}

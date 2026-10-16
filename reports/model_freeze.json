@@ -1,0 +1,69 @@
+{
+  "artifacts_sha256": {
+    "pricing_glm.joblib": "286a501c776502da2eaa69fe2ca8d8a15946006da1af692411e6ee425dda9174",
+    "pricing_hgb.joblib": "ed779d78ac1cec7e0249751404e7ac567e80b8614c13ab623e451880613b1f30",
+    "reserve_test_forecasts.json": "de1a7e7a6fbe436c6a30b889a8fc6005ef9981fdff7acc1c15d9f302ef9ca9a7"
+  },
+  "calibration": {
+    "glm": 1.1295132555055822,
+    "hgb": 1.417367888321013
+  },
+  "computational_hashes": {
+    "scripts/reserve_valuation.py": "a4fadcbffce6ff8c06719414707e9f210a4616d4a0292bc6d9ac390e10522325",
+    "src/insurance_risk/__init__.py": "78647fc6a9497d8ea7a9ccd4eb54fe50c8930bcff09cae3b0c1070e4afadaee1",
+    "src/insurance_risk/challengers.py": "ab409b4252faf40e945815f4d4e0fe49fd1f951c58fc260853083e4a99fbb5ef",
+    "src/insurance_risk/common.py": "314619b05b447ab0f0b05d5717451e5150faba8ee7223dc6c31323bfe195fcac",
+    "src/insurance_risk/evaluation.py": "56acdfc26f8bcaa2ade69166fc0490c824c31408c0431e91662c2f039cf3cb79",
+    "src/insurance_risk/pricing.py": "20284e3c629c968d8b2eb5d230c6a06f39dea987ee1f226925723e170410abd3",
+    "src/insurance_risk/reserving.py": "947640a9027e0d785e300466c95d7eae358f890e25b7ee1249e3100c0e21021d"
+  },
+  "config_sha256": "2f4bb3cf98730e08f1b9428ba8a277ba4c78f1c994e0bf57ae43007bfd6b68fe",
+  "finite_budget": "Two pricing families, fixed iterations/penalties, two reserve uncertainty methods, 2000 simulations/entity, no tuning.",
+  "pricing_split_sha256": "5f0b318ac529808fbee9b5d9b8b3e8b2df462640b9bd3156cb1bebf3bfec1bf9",
+  "protocol_commit": "c0722d07944037c8cc30e1f315b9b5ef11847cf8",
+  "protocol_sha256": "a97ce15898a8b1896d25dcb922b74750512ebe57ce3f9e981cc76bd5a761308b",
+  "reserve_test_cohorts": {
+    "2007": {
+      "complete_observed_triangles": 121,
+      "entity_assignment_sha256": "f8bbc21058bf042bc2e4190c9fc1ed1d602cd397a8818b5c9a62df2aa11234f2",
+      "forecast_entities": 43,
+      "group": "test",
+      "positive_cumulative_eligible_entities": 96,
+      "visible_entities": 143
+    },
+    "2009": {
+      "complete_observed_triangles": 121,
+      "entity_assignment_sha256": "f8bbc21058bf042bc2e4190c9fc1ed1d602cd397a8818b5c9a62df2aa11234f2",
+      "forecast_entities": 42,
+      "group": "test",
+      "positive_cumulative_eligible_entities": 95,
+      "visible_entities": 143
+    }
+  },
+  "seed_convention": "SHA256 reserve-simulation:seed:valuation:entity first 64 bits; bootstrap seed+101 pricing, seed+201/202 reserve 2007/2009.",
+  "status": "Frozen before final-test scoring; no target-derived test metrics included.",
+  "training_risk_decile_cutpoints": {
+    "glm": [
+      81.02591068044833,
+      96.4308790510025,
+      110.00630548903366,
+      123.93226028650405,
+      138.9865427677545,
+      158.05439162970413,
+      183.95026482873692,
+      226.53181183327513,
+      323.05182424355564
+    ],
+    "hgb": [
+      74.68171581045308,
+      93.2324797987201,
+      108.20369647352251,
+      123.21697323372113,
+      140.33946591743006,
+      161.19600224020522,
+      189.5022527320763,
+      233.86175256427154,
+      329.76111661561004
+    ]
+  }
+}

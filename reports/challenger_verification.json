@@ -1,0 +1,27 @@
+{
+  "additional_checks": [
+    "Lognormal moment conversion",
+    "Shared-factor/process simulation agrees with analytic total variance",
+    "Zero-variance transitions",
+    "Currency scaling of simulated runoff",
+    "Training-only category vocabulary and unseen-category behavior",
+    "Tweedie deviance agrees with reference implementation",
+    "Paired bootstrap cancellation",
+    "Predictions unaffected by future values or their removal",
+    "Changed fitted artifact blocks final evaluation"
+  ],
+  "date": "2026-10-16",
+  "exit_code": 0,
+  "final_test_scored": false,
+  "freeze_verified": true,
+  "model_freeze_sha256": "cd486c379d71d71e69d523d4295311aca4ef4de2b3fa5ffa337ee8b367abce7a",
+  "output_hashes": {
+    "reports/model_freeze.json": "cd486c379d71d71e69d523d4295311aca4ef4de2b3fa5ffa337ee8b367abce7a",
+    "reports/pricing_challenger.json": "8941e8f3f63277a1f639d685b7dc05c73c7cacf4b34c579fde98aee1c378a6fb",
+    "reports/reserve_challenger.json": "a67532a8d17b3571bff28e5fdafe8e9f59ea59bb995abd3d1bb62d2ca642dfee"
+  },
+  "python": "3.12.14",
+  "run_command": "python3 scripts/run_challengers.py",
+  "test_command": "LOKY_MAX_CPU_COUNT=1 python3 -m unittest discover -s tests -v",
+  "tests_passed": 18
+}

@@ -27,12 +27,10 @@ Remaining release gates are bounded:
 4. Add the accurate project entry to the portfolio profile. Do not remove old
    material as a side effect of this release step.
 
-The currently exposed GitHub connection can save source commits but does not
-expose repository-visibility, Pages or release-creation operations. The browser
-integration needed for the remaining checks is not currently available through
-the supported managed-preview route. Existing credential-protection failures
-must not be bypassed. These are publication/verification limits, not unresolved
-model-fitting work.
+The signed-in browser is available for repository administration and live
+checks. Public visibility and Pages await the owner's approval for these exact
+publication actions. This remains a private release candidate until publication
+and actual browser verification are complete.
 
 ## Prepared release description
 

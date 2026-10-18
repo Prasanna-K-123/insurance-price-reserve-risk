@@ -1,52 +1,11 @@
-# Release status
+# v1.0.0 research release
 
-The scientific analysis, explanatory reports and source reproduction are
-complete. The repository is still a private working repository. **No public
-demonstration or v1.0.0 release is claimed.**
+[Open the live explorer](https://prasanna-k-123.github.io/insurance-price-reserve-risk/).
 
-Completed deliverables:
+Actual browser verification completed 18 October 2026 at desktop and 375/320-pixel iframe widths, with native keyboard controls and the linked evidence checked. The iframe tests use real CSS layout widths; they do not emulate a phone OS, touch input or a screen reader. Detailed observations are in [browser_verification.json](../reports/browser_verification.json).
 
-- Reconciled source audit and frozen protocol.
-- Fixed actuarial baselines and bounded challengers.
-- Prespecified final comparisons and failure diagnostics.
-- Technical report, decision memo and diagnostic figure.
-- Fresh source/output-directory reproduction: 18 tests and ten byte-identical
-  regenerated analysis outputs in the same environment.
-- Offline explorer of aggregate calibration, reserve coverage and explicitly
-  illustrative pricing assumptions; 15 script-level checks pass.
-- [Explorer verification evidence](../reports/demo_verification.json), which
-  explicitly distinguishes script execution from rendered-browser QA.
+18 tests and ten byte-identical analysis outputs from a fresh-source/model/output-directory run using pinned cached raw bytes in the same environment. No fresh-network or cross-platform claim.
 
-Remaining release gates are bounded:
+The release tag identifies the final checked source commit. Raw source observations, credentials and private fitted artifacts are excluded. The explorer selects fixed aggregate research results or explicitly hypothetical assumptions; it does not refit or claim deployment.
 
-1. Verify the rendered explorer and its controls in a supported browser at
-   desktop and mobile widths. Script-level checks do not replace this.
-2. Make the approved repository public and enable GitHub Pages for `main/docs`.
-3. Confirm the live demonstration and report links, then create and verify a
-   v1.0.0 tag/release at the final checked commit.
-4. Add the accurate project entry to the portfolio profile. Do not remove old
-   material as a side effect of this release step.
-
-The signed-in browser is available for repository administration and live
-checks. Public visibility and Pages await the owner's approval for these exact
-publication actions. This remains a private release candidate until publication
-and actual browser verification are complete.
-
-## Prepared release description
-
-Insurance pricing and reserve uncertainty: two independent research case studies.
-
-- Audited 677,991 French motor policies and 26,444 linked claims.
-- Compared exposure-aware Poisson/Gamma GLMs with fixed histogram boosting.
-  The calibrated combined score improves by 1.82% on 135,198 held-out policies,
-  while conditional calibration and severity-component limitations remain.
-- Compared Mack-normal intervals with a positive shared-factor/process
-  simulation on a valuation-separated U.S. paid-loss panel. Simulation does
-  not establish an interval-score advantage. Both methods under-cover.
-- Included the frozen protocol, numerical/boundary tests, aggregate evidence,
-  source-reproduction checks, decision memo and offline explorer.
-
-No commercial savings, live pricing approval, reserve certification or current
-Indian insurer experience is claimed. Raw observations and fitted artifacts
-are excluded. This description is prepared for a future release, not evidence
-that publication has occurred.
+Profile integration is tracked separately from this project release.

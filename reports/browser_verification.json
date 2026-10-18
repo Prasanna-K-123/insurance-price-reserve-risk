@@ -1,0 +1,32 @@
+{
+  "actual_browser_rendering": true,
+  "content_layout_widths_after_scrollbar_pixels": [
+    360,
+    305
+  ],
+  "date": "2026-10-18",
+  "desktop_layout_width_pixels": 1348,
+  "iframe_widths_tested_pixels": [
+    375,
+    320
+  ],
+  "keyboard": [
+    "Case-study ArrowRight changes selected tab and panel",
+    "Native model/group selects",
+    "Inflation slider End produces 185.7 index",
+    "Reset restores 142.9 default"
+  ],
+  "links_verified": [
+    "Technical report rendered on GitHub",
+    "Pricing/reserve aggregates, protocol, provenance and memo resolve to published repository files"
+  ],
+  "live_url": "https://prasanna-k-123.github.io/insurance-price-reserve-risk/",
+  "no_document_horizontal_overflow": true,
+  "observed_results": {
+    "pricing_glm_deviance": 79.631,
+    "reserve_2009_nominal_80_coverage_percent": 57.1
+  },
+  "phone_OS_or_touch_emulation_claimed": false,
+  "public_data_are_aggregate_only": true,
+  "screen_reader_certification_claimed": false
+}

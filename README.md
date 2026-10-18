@@ -18,9 +18,8 @@ populations are never joined.
 
 **Status:** final comparisons, technical report and decision memo complete.
 A fresh source/output directory rebuilt all models and reproduced ten analysis
-outputs byte-for-byte in the same Python environment. The offline explorer is
-built; rendered-browser verification, public hosting and the tagged release
-remain pending. See [release status](docs/RELEASE.md).
+outputs byte-for-byte in the same Python environment. The [live explorer](https://prasanna-k-123.github.io/insurance-price-reserve-risk/) is public. Desktop, 375-pixel and 320-pixel
+browser views, keyboard controls and report links have been checked. See [release status](docs/RELEASE.md).
 
 ## Inspect the work
 

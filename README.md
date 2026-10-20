@@ -1,5 +1,7 @@
 # Insurance Pricing & Reserve Uncertainty
 
+[![Public research checks](https://github.com/Prasanna-K-123/insurance-price-reserve-risk/actions/workflows/verify.yml/badge.svg)](https://github.com/Prasanna-K-123/insurance-price-reserve-risk/actions/workflows/verify.yml)
+
 **Prasanna K · M.A. Actuarial Economics, Madras School of Economics**
 
 Two independent actuarial studies: French motor loss-cost modelling and U.S.
@@ -33,6 +35,10 @@ browser views, keyboard controls and report links have been checked. See [releas
   and [data provenance](docs/DATA.md).
 
 ![Final-test calibration and reserve coverage](reports/validation_diagnostics.svg)
+
+## Automated public checks
+
+The automated checks run on public files without private data, credentials or model refitting. They include unit tests and explorer arithmetic. Raw-source model reproduction is separate.
 
 ## Reproduce
 
